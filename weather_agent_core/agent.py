@@ -14,8 +14,8 @@ from pathlib import Path
 import yaml
 from langchain_core.messages import HumanMessage, SystemMessage
 
-from core.llm import create_llm
-from core.runtime import AgentRuntime
+from weather_agent_core.llm import create_llm
+from weather_agent_core.runtime import AgentRuntime
 
 _PROMPTS_DIR = Path(__file__).parent / "prompts"
 

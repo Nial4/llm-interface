@@ -9,7 +9,7 @@ This demonstrates how a team would:
 3. Create and invoke the WeatherAgent
 """
 
-from core import AgentRuntime, LLMConfig, ObservabilityConfig, WeatherAgent
+from weather_agent_core import AgentRuntime, LLMConfig, ObservabilityConfig, WeatherAgent
 from examples.mock_adapter import MockWeatherDB
 
 

@@ -6,7 +6,7 @@ satisfies the WeatherDBService contract.
 
 import pytest
 
-from core.tests.contract_test_weather_db import WeatherDBServiceContractTest
+from weather_agent_core.tests.contract_test_weather_db import WeatherDBServiceContractTest
 from examples.mock_adapter import MockWeatherDB
 
 

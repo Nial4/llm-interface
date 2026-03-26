@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
-from core.ports import WeatherDBService
+from weather_agent_core.ports import WeatherDBService
 
 
 @dataclass

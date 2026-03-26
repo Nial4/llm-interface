@@ -7,7 +7,7 @@ adapter behaves consistently with what the Core agent expects.
 Usage example (for a PostgreSQL adapter)::
 
     # tests/test_postgres_adapter.py
-    from core.tests.contract_test_weather_db import WeatherDBServiceContractTest
+    from weather_agent_core.tests.contract_test_weather_db import WeatherDBServiceContractTest
     from my_adapters.postgres import PostgresWeatherDB
 
     class TestPostgresWeatherDB(WeatherDBServiceContractTest):
@@ -31,7 +31,7 @@ from __future__ import annotations
 
 import pytest
 
-from core.ports import WeatherDBService, WeatherInfo
+from weather_agent_core.ports import WeatherDBService, WeatherInfo
 
 
 class WeatherDBServiceContractTest:

@@ -8,7 +8,7 @@ It serves two purposes:
 
 from __future__ import annotations
 
-from core.ports import WeatherDBService, WeatherInfo
+from weather_agent_core.ports import WeatherDBService, WeatherInfo
 
 
 class MockWeatherDB:

@@ -6,7 +6,7 @@ This is centralized in Core so that both teams use the same LLM client.
 from langchain_aws import ChatBedrock
 from langchain_core.language_models import BaseChatModel
 
-from core.runtime import LLMConfig
+from weather_agent_core.runtime import LLMConfig
 
 
 def create_llm(config: LLMConfig) -> BaseChatModel:
